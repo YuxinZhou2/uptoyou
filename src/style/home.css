@@ -1,0 +1,39 @@
+#home-container {
+    min-height: 100vh;
+}
+
+#home-container.row{
+    min-height: 100vh;
+}
+
+.overlay {
+    background-size: cover;
+    min-height: 75vh;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.overlay#shopnew {
+    background: url('../assets/new.jpg') no-repeat center center fixed;
+}
+
+.overlay#shopold {
+    background: url('../assets/old.jpg') no-repeat center center fixed;
+}
+
+.overlay#dontshop {
+    background: url('../assets/noshop.jpg') no-repeat center center fixed;
+}
+
+h1 {
+    color: black;
+    background-color: none;
+}
+h1:hover {
+    color: grey;
+}
+a:hover{
+
+    text-decoration: none;
+}
