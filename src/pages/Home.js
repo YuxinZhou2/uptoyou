@@ -3,7 +3,7 @@ import '../style/home.css'
 import { Jumbotron as Jumbo} from 'react-bootstrap';
 
 export const Home = () => (
-    <div class="container-fluid">
+    <div class="container-fluid" id="home-container">
         <Jumbo>
             <h1>New Age Shopping</h1>
             <p>There's layers to the problem. It starts off with hurting the world, but connects to inhumane child labour, and companies with weak values who promote appropriation and lack of diversity in body shapes and peoples.</p>
@@ -12,11 +12,10 @@ export const Home = () => (
         </Jumbo>
         <div class="row align-items-center">
             <div class="col-sm">
-            <a href={"/shopnew"}>
+                <a href={"/shopnew"}>
                     <h1>Shop New</h1>
                 </a>
-               <div className="overlay" id="shopnew">
-               </div>
+               <div className="overlay" id="shopnew"></div>
             </div>
             <div class="col-sm">
                 <a href={"/shopold"}>
